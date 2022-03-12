@@ -23,7 +23,7 @@
                 colemak_layer {
                         bindings = <
    &none &kp Q      &kp W       &kp F          &kp P          &kp G              &kp J         &kp L         &kp U         &kp Y        &kp SQT      &none
-   &none &mt LGUI A &mt LALT R  &mt LCTRL D    &mt LSHFT T    &kp D              &kp H         &mt RSHFT N   &mt RCTRL E   &mt LALT I   &mt RGUI O   &none
+   &none &mt LGUI A &mt LALT R  &mt LCTRL S    &mt LSHFT T    &kp D              &kp H         &mt RSHFT N   &mt RCTRL E   &mt LALT I   &mt RGUI O   &none
    &none &kp Z      &mt RALT X  &kp C          &kp V          &kp B              &kp K         &kp M         &kp COMMA     &mt RALT DOT &kp FSLH     &none
                           &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB      &lt SYM ENTER &lt NUM BSPC  &lt FUN DEL
                         >;
