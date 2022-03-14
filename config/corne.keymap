@@ -25,7 +25,7 @@
    &none &kp Q      &kp W       &kp F          &kp P          &kp G              &kp J         &kp L         &kp U         &kp Y        &kp SQT      &none
    &none &mt LGUI A &mt LALT R  &mt LCTRL S    &mt LSHFT T    &kp D              &kp H         &mt RSHFT N   &mt RCTRL E   &mt LALT I   &mt RGUI O   &none
    &none &kp Z      &mt RALT X  &kp C          &kp V          &kp B              &kp K         &kp M         &kp COMMA     &mt RALT DOT &kp FSLH     &none
-                         &lt MOUSE TAB  &lt MEDIA ESC  &lt NAV SPACE             &lt NUM BSPC  &lt FUN DEL  &lt SYM ENTER
+                         &lt MEDIA ESC  &lt NAV SPACE &lt MOUSE TAB              &lt SYM ENTER  &lt NUM BSPC  &lt FUN DEL  
                         >;
                 };
 
@@ -34,7 +34,7 @@
    &none &none      &none       &none          &none          &none              &none         &none        &kp C_VOL_UP  &none        &none   &none 
    &none &kp LGUI   &kp LALT    &kp LCTRL      &kp LSHFT      &none              &none         &kp C_NEXT   &kp C_VOL_DN  &kp C_PREV   &none   &none
    &none &none      &kp RALT    &none          &none          &none              &none         &kp C_BRI_DN &none         &kp C_BRI_UP &none   &none
-                          &none          &none          &none                  &kp C_PP     &kp C_MUTE  &kp C_STOP
+                          &none          &none          &none                  &kp C_STOP  &kp C_PP     &kp C_MUTE  
                         >;
                 };
 
@@ -43,7 +43,7 @@
    &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4       &none         &none        &kp UP        &none        &none    &none
    &none &kp LGUI     &kp LALT     &kp LCTRL      &kp LSHFT      &none              &kp HOME      &kp LEFT     &kp DOWN      &kp RIGHT    &kp END  &none
    &none &bt BT_CLR   &kp RALT     &none          &none          &none              &none         &kp PG_DN    &none         &kp PG_UP    &none    &none
-                                   &none          &none          &none              &kp DEL  &kp ENTER     &kp BSPC     
+                                   &none          &none          &none              &kp ENTER &kp BSPC   &kp DEL      
                         >;
                 };
 
@@ -52,7 +52,7 @@
    &none &none      &none       &none          &none          &none              &none         &none        &kp UP        &none        &none    &none
    &none &kp LGUI   &kp LALT    &kp LCTRL      &kp LSHFT      &none              &kp HOME      &kp LEFT     &kp DOWN      &kp RIGHT    &kp END  &none
    &none &none      &kp RALT    &none          &none          &none              &none         &kp PG_DN    &none         &kp PG_UP    &none    &none
-                          &none          &none          &none                   &kp DEL  &kp ENTER     &kp BSPC     
+                          &none          &none          &none                   &kp ENTER   &kp DEL   &kp BSPC     
                         >;
                 };
 
@@ -61,7 +61,7 @@
    &none &kp LBRC   &kp AMPS    &kp STAR       &kp LPAR       &kp RBRC           &none         &none        &none         &none        &none     &none
    &none &kp COLON  &kp DLLR    &kp PRCNT      &kp CARET      &kp PLUS           &none         &kp RSHFT    &kp RCTRL     &kp LALT     &kp RGUI  &none
    &none &kp TILDE  &kp EXCL    &kp AT         &kp HASH       &kp PIPE           &none         &none        &none         &kp RALT     &none     &none
-                          &kp MINUS  &kp LPAR       &kp RPAR                &none         &none        &none
+                               &kp LPAR       &kp RPAR  &kp MINUS                &none         &none        &none
                         >;
                 };
 
@@ -70,7 +70,7 @@
    &none &kp LBKT   &kp N7      &kp N8         &kp N9         &kp RBKT           &none         &none        &none         &none        &none     &none
    &none &kp SEMI   &kp N4      &kp N5         &kp N6         &kp EQUAL          &none         &kp RSHFT    &kp RCTRL     &kp LALT     &kp RGUI  &none
    &none &kp GRAVE  &kp N1      &kp N2         &kp N3         &kp BSLH           &none         &none        &none         &kp RALT     &none     &none
-                          &kp UNDER &kp DOT        &kp N0                   &none         &none        &none
+                               &kp DOT        &kp N0       &kp UNDER             &none         &none        &none
                         >;
                 };
 
@@ -79,7 +79,7 @@
    &none &kp F12    &kp F7      &kp F8         &kp F9         &kp PSCRN          &none         &none        &none         &none        &none     &none
    &none &kp F11    &kp F4      &kp F5         &kp F6         &kp SLCK           &none         &kp RSHFT    &kp RCTRL     &kp LALT     &kp RGUI  &none
    &none &kp F10    &kp F1      &kp F2         &kp F3         &kp PAUSE_BREAK    &none         &none        &none         &kp RALT     &none     &none
-                         &kp TAB  &none          &kp SPACE                  &none         &none        &none
+                           &none  &kp SPACE  &kp TAB                &none         &none        &none
                         >;
                 };
         };
